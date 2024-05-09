@@ -79,9 +79,9 @@ export default function Home() {
             ))}
           </CardContent>
         </Card>
-        {ALLTYPE.map((type) => {
+        {ALLTYPE.map((type, idx) => {
           return (
-            <Card>
+            <Card key={idx}>
               <CardHeader>
                 <CardTitle>{type}</CardTitle>
               </CardHeader>
