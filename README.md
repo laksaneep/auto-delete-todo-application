@@ -1,4 +1,4 @@
-### Auto-delete Todo application
+### 1. Auto-delete Todo application
 
 
 Requirement :
@@ -8,5 +8,14 @@ Requirement :
 4. If click on the right column (Fruit/Vegetable) the item must go back to the bottom of the left column (list) immediately.
 
 
-Tech stack : Next.js
-Deploy application : https://auto-delete-todo-applications.vercel.app/
+### 2. Create data from API 
+
+Requirement : get API from https://dummyjson.com/users
+
+1. Your project must use Typescript, Typescript module, and HTTP framework (GRPC is plus)
+2. Tranforms JSON data from API to new data groupBy department
+3. We encourage you to write tests, which we will give you some extra score
+4. We will give you an extra score if you focus on performance.
+
+Tech stack : Next.js<br>
+Demo application : https://auto-delete-todo-applications.vercel.app/
