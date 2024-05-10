@@ -10,7 +10,7 @@ export default function Home() {
       <p>Developed by : Laksanee Petchngamsaeng </p>
       <Button asChild>
         <Link href={`https://1drv.ms/b/s!AvZDuPzjmrnvk_0KhzuXQGbOuRtgnw`}>
-          Let's see a Resume
+          Resume
         </Link>
       </Button>
       <br></br>
