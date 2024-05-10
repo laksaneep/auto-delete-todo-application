@@ -76,7 +76,7 @@ async function getUsersData() {
 
     //   // return [...results, objResult];
     // }, initialData);
-    data.users.map((user) => {
+    data.users.map((user: any) => {
       const id = user.id;
       const department = user.company.department;
       const firstName = user.firstName;
