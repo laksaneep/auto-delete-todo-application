@@ -16,10 +16,10 @@ export default function Home() {
       <br></br>
       <div className="flex flex-col justify-center items-start">
         <p className="italic">Solution : </p>
-        <li>
+        <li className="text-blue-700 italic underline">
           <Link href="/auto-todo">Auto delete todo application</Link>
         </li>
-        <li>
+        <li className="text-blue-700 italic underline">
           <Link href="/create-data-from-api">Create data from API</Link>
         </li>
       </div>
